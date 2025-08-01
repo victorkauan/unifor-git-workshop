@@ -1,0 +1,30 @@
+Script started on 2025-07-31 22:24:52-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="48"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Line[K[K[K[KLine 1" > file.txt
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add file.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -m ":ps[K[Ksparkles: feat: Create file[K[K[K[Ktext file" 1[K[K "1"[1P"[1P"
+[?2004l[main 68809ad] :sparkles: feat: Create text file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git ls-tree HEAD
+[?2004l100644 blob 5bdb83eb8d8547a33a6e40cdccb111f0f688b65f	README.md
+100644 blob 3be9c81fd3d8fcf01e59701e5ee48041bcdf8631	file.txt
+100644 blob 49de0503a08f46662347a00e328dee366958cd88	notes.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -p [7m3be9c81fd3d8fcf01e59701e5ee48041bcdf8631[27m3be9c81fd3d8fcf01e59701e5ee48041bcdf8631
+[?2004lLine 1
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Line 2" >> file.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -am ":sparkels:[K[K[K[Kles: feat: Add t[Kline to [K[K[K[K[K[K[K[Ka new line to text file"
+[?2004l[main 11988da] :sparkles: feat: Add a new line to text file
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git ls-tree HEAD
+[?2004l100644 blob 5bdb83eb8d8547a33a6e40cdccb111f0f688b65f	README.md
+100644 blob c82de6a6a54fe9b7d6a57f7ef50747876ee7bb69	file.txt
+100644 blob 49de0503a08f46662347a00e328dee366958cd88	notes.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -p [7mc82de6a6a54fe9b7d6a57f7ef50747876ee7bb69[27mc82de6a6a54fe9b7d6a57f7ef50747876ee7bb69
+[?2004lLine 1
+Line 2
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -p c82de6a6a54fe9b7d6a57f7ef50747876ee7bb69ls-tree HEAD[Kcommit -am ":sparkles: feat: Add a new line to text file"[35Pecho "Line 2" >> file.txt git cat-file -p 3be9c81fd3d8fcf01e59701e5ee48041bcdf8631
+[?2004lLine 1
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-07-31 22:27:03-03:00 [COMMAND_EXIT_CODE="0"]

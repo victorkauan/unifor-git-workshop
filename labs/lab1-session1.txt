@@ -1,0 +1,59 @@
+Script started on 2025-07-31 22:13:43-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="48"]
+[?2004h]0;root@silver: ~/www/study/unifor/projectsroot@silver:~/www/study/unifor/projects# mdki[K[K[Kkdir unfi[K[Kifor-git-workshop && cd unifor-git-workshop
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git init
+[?2004lInitialized empty Git repository in /root/www/study/unifor/projects/unifor-git-workshop/.git/
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "v1[K[KV1 [K" > notes.txt
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# ag[K[Kgit add . && gt [K[Kit commit -m ":sparkles;[K: feat; V[K[K[K: V![K1"
+[?2004l[main (root-commit) 40dbab4] :sparkles: feat: V1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 notes.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git[K[K[Kecho "V2" > [K> notes.txt && git commit -amd[K ":sparkles:feat[K[K[K fe[K[K[K[K feat: [K V2"
+[?2004l[main 004cdbd] :sparkles: feat: V2
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "V2" >> notes.txt && git commit -am ":sparkles: feat: V2"3"[1P"[1P"3"[C[C[1P[1@3
+[?2004l[main 8baf09e] :sparkles: feat: V3
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git log --oneline
+[?2004l[?1h=[33m8baf09e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m :sparkles: feat: V3[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout HEAD~2[27mgit checkout HEAD~2
+[?2004lNote: switching to 'HEAD~2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 40dbab4 :sparkles: feat: V1
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# cat notes.txt 
+[?2004lV1
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout main[27mgit checkout main
+[?2004lPrevious HEAD position was 40dbab4 :sparkles: feat: V1
+Switched to branch 'main'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33m8baf09e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m :sparkles: feat: V3[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit reset --soft HEAD~1[27mgit reset --soft HEAD~1
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -m ":bug: fix: Fix reverter[Kd V2"
+[?2004l[main b2864e8] :bug: fix: Fix reverted V2
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33mb2864e8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m :bug: fix: Fix reverted V2[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-07-31 22:15:28-03:00 [COMMAND_EXIT_CODE="0"]

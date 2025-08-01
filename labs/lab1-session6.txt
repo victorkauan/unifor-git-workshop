@@ -1,0 +1,76 @@
+Script started on 2025-08-01 19:15:44-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="39"]
+[?2004h]0;root@silver: ~/www/study/unifor/projectsroot@silver:~/www/study/unifor/projects# cd unifor-git-workshop/
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Line 1" > ar[K[Kfile.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# gi[Kit commit - m":[K[K[K[Km ":sparkles; feat[K[K[K[K[K[K: feat [K: Reset text file"
+[?2004l[main 9620a15] :sparkles: feat: Reset text file
+ 1 file changed, 1 deletion(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# ls .git/oj[Kbjects/
+[?2004l[0m[01;34m00[0m  [01;34m07[0m  [01;34m11[0m  [01;34m2b[0m  [01;34m3e[0m  [01;34m41[0m  [01;34m49[0m  [01;34m4f[0m  [01;34m5b[0m  [01;34m68[0m  [01;34m94[0m  [01;34m99[0m  [01;34mb2[0m  [01;34mc9[0m  [01;34med[0m    [01;34mpack[0m
+[01;34m04[0m  [01;34m0b[0m  [01;34m28[0m  [01;34m3b[0m  [01;34m40[0m  [01;34m47[0m  [01;34m4c[0m  [01;34m5a[0m  [01;34m60[0m  [01;34m8b[0m  [01;34m96[0m  [01;34mab[0m  [01;34mc8[0m  [01;34me0[0m  [01;34minfo[0m
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# find .git/objects/ -type f
+[?2004l.git/objects/4f/27248d99fda494d5d107b4b212a022e25560b0
+.git/objects/11/988daea80809f34d6d22ce01949fd0412521ee
+.git/objects/99/8a6f80eb9feed5d5a7b2b56c41e91961807a52
+.git/objects/c8/2de6a6a54fe9b7d6a57f7ef50747876ee7bb69
+.git/objects/94/f60675ce769d2b009c19eb1fb65879b0f39a53
+.git/objects/3e/fcbc2638ace0bda5f40da5ab0a187e60cde8fd
+.git/objects/8b/af09e0300f1a5c31a4c2e627cbbab910b7b40e
+.git/objects/00/4cdbd6a7f483ada50b065d8a39177d5dfccfde
+.git/objects/28/cc347623b1a5d91c657673243a724e855b4204
+.git/objects/49/de0503a08f46662347a00e328dee366958cd88
+.git/objects/5b/db83eb8d8547a33a6e40cdccb111f0f688b65f
+.git/objects/e0/c8f2a7895a407871f152de6b135ef556c5ea68
+.git/objects/0b/d4328555819f5a747da844fb8f6f734ba75f9c
+.git/objects/40/dbab4ad574807a981cbe4fd5b71c48850ce48a
+.git/objects/c9/516f504f8d009e4dc07b1c26cc6720e6cb2b48
+.git/objects/3b/e9c81fd3d8fcf01e59701e5ee48041bcdf8631
+.git/objects/60/93b087ba20a794a5d08b0140f8f24e6153bc36
+.git/objects/07/7fab94ea9683d7828ab3da77dd2d53775795de
+.git/objects/47/d0e0b752e4d1e4fbdc72729d795a4524a97e3e
+.git/objects/47/5ce085ac4feb27bd03aa3077e638f5d0e9a6cf
+.git/objects/5a/d14d63a10a6bb34544915c9c1ae603020960fc
+.git/objects/4c/7fca225a7177fee2a47bacb4ecbe4d1d5b87ea
+.git/objects/b2/864e8df935a47a88e97fe8231bec707130cb01
+.git/objects/96/20a1543747cde0d5e7f556794e3d2960707510
+.git/objects/ed/c01c4f1b5fd06739fa71ce23d9627f63b960b0
+.git/objects/ab/61c7cc5a718ef7927560aafc4bf76b66dd8a4e
+.git/objects/68/809ad0b54e2b6d133ab9f68ff27653aed97797
+.git/objects/04/befebc00c200e71f2facee77198916f50a89e4
+.git/objects/2b/ff1c22a6a53d5bf2c72c4806ea3cee46285174
+.git/objects/41/a2721d8b575fa23fde7d7ba760d056b38affea
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit rev-parse HEAD[27mgit rev-parse HEAD
+[?2004l9620a1543747cde0d5e7f556794e3d2960707510
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -t [7m9620a1543747cde0d5e7f556794e3d2960707510[27m9620a1543747cde0d5e7f556794e3d2960707510
+[?2004lcommit
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -p [7m9620a1543747cde0d5e7f556794e3d2960707510[27m9620a1543747cde0d5e7f556794e3d2960707510
+[?2004ltree edc01c4f1b5fd06739fa71ce23d9627f63b960b0
+parent 11988daea80809f34d6d22ce01949fd0412521ee
+author Victor Kauan <victorkauan.dev@gmail.com> 1754086572 -0300
+committer Victor Kauan <victorkauan.dev@gmail.com> 1754086572 -0300
+
+:sparkles: feat: Reset text file
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit ls-tree HEAD[27mgit ls-tree HEAD
+[?2004l100644 blob 5bdb83eb8d8547a33a6e40cdccb111f0f688b65f	README.md
+100644 blob 3be9c81fd3d8fcf01e59701e5ee48041bcdf8631	file.txt
+100644 blob 49de0503a08f46662347a00e328dee366958cd88	notes.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -t [7m5bdb83eb8d8547a33a6e40cdccb111f0f688b65f[27m5bdb83eb8d8547a33a6e40cdccb111f0f688b65f
+[?2004lblob
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -t 5bdb83eb8d8547a33a6e40cdccb111f0f688b65f[C[1P 5bdb83eb8d8547a33a6e40cdccb111f0f688b65fp 5bdb83eb8d8547a33a6e40cdccb111f0f688b65f
+[?2004lV1
+V2
+V3
+V4
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -p 5bdb83eb8d8547a33a6e40cdccb111f0f688b65ft[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m3be9c81fd3d8fcf01e59701e5ee48041bcdf8631[27m3be9c81fd3d8fcf01e59701e5ee48041bcdf8631
+[?2004lblob
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -t 3be9c81fd3d8fcf01e59701e5ee48041bcdf8631[C[C[C[C[C[C[C[1P 3be9c81fd3d8fcf01e59701e5ee48041bcdf8631p 3be9c81fd3d8fcf01e59701e5ee48041bcdf8631
+[?2004lLine 1
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -p 3be9c81fd3d8fcf01e59701e5ee48041bcdf8631t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m49de0503a08f46662347a00e328dee366958cd88[27m49de0503a08f46662347a00e328dee366958cd88
+[?2004lblob
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cat-file -t 49de0503a08f46662347a00e328dee366958cd88[C[1P 49de0503a08f46662347a00e328dee366958cd88p 49de0503a08f46662347a00e328dee366958cd88
+[?2004lV1
+V2
+V3
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-01 19:18:20-03:00 [COMMAND_EXIT_CODE="0"]

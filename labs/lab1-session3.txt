@@ -1,0 +1,34 @@
+Script started on 2025-07-31 22:23:28-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="48"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33m94f6067[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m :sparkles: feat: README V5[m
+[33m3efcbc2[m :sparkles: feat: README V4[m
+[33m2bff1c2[m :sparkles: feat: README V3[m
+[33m5ad14d6[m :sparkles: feat: README V2[m
+[33m6093b08[m :sparkles: feat: README V1[m
+[33mb2864e8[m :bug: fix: Fix reverted V2[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit log -1[27mgit log -1
+[?2004l[?1h=[33mcommit 94f60675ce769d2b009c19eb1fb65879b0f39a53[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Thu Jul 31 22:16:49 2025 -0300[m
+[m
+    :sparkles: feat: README V5[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit config user.name[27mgit config user.name
+[?2004lVictor Kauan
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit config user.email[27mgit config user.email
+[?2004lvictorkauan.dev@gmail.com
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit diff HEAD~1 HEAD[27mgit diff HEAD~1 HEAD
+[?2004l[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex 5bdb83e..077fab9 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -2,3 +2,4 @@[m [mV1[m[m
+ V2[m[m
+ V3[m[m
+ V4[m[m
+[32m+[m[32mV5[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-07-31 22:23:56-03:00 [COMMAND_EXIT_CODE="0"]
