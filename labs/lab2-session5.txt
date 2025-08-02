@@ -1,0 +1,90 @@
+Script started on 2025-08-01 21:41:01-03:00 [TERM="tmux-256color" TTY="/dev/pts/6" COLUMNS="170" LINES="57"]
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout -b feature[27mgit checkout -b feature
+[?2004lSwitched to a new branch 'feature'
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Feature line" > file.txt 
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add file.txt 
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -m ":sparkles: feat: Implementa feature[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KAdd feature line"
+[?2004l[feature ba530f5] :sparkles: feat: Add feature line
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git branch
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+* [32mfeature[m[m
+  feature-a[m[m
+  feature-b[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout main[27mgit checkout main
+[?2004lSwitched to branch 'main'
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout main[7Pbranchcommit -m ":sparkles: feat: Add feature line"add file.txt [K[14@echo "Feature line" >[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1@m[1@a[1@i[1@n[1P[1P[1P[1P[1@M[1@a[1@i[1@n
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add file.txt 
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add file.txt checkout main[7Pbranchcommit -m ":sparkles: feat: Add feature line"add file.txt [Kcommit -m ":sparkles: feat: Add feature line"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P line"[1P line"[1P line"[1P line"[1P line"[1P line"[1P line"m line"a line"i line"n line"
+[?2004l[main b782dcb] :sparkles: feat: Add main line
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git branch
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout feature[27mgit checkout feature
+[?2004lSwitched to branch 'feature'
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit merge main[27mgit merge main
+[?2004lAuto-merging file.txt
+CONFLICT (content): Merge conflict in file.txt
+Automatic merge failed; fix conflicts and then commit the result.
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git status
+[?2004lOn branch feature
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   file.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-session5.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit merge --abort[27mgit merge --abort
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit reset --hard HEAD~1[27mgit reset --hard HEAD~1
+[?2004lHEAD is now at 75fa5a4 :see_no_evil: chore: Create .gitignore file
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit rebase main[27mgit rebase main
+[?2004l[KSuccessfully rebased and updated refs/heads/feature.
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit log --oneline --all[27mgit log --oneline --all
+[?2004l[?1h=[33mb782dcb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature[m[33m, [m[1;32mmain[m[33m)[m :sparkles: feat: Add main line[m
+[33m75fa5a4[m :see_no_evil: chore: Create .gitignore file[m
+[33m7c935e9[m Solve conflicts[m
+[33m7c8c45e[m Solve conflicts[m
+[33ma5fd5de[m[33m ([m[1;32mbranch3[m[33m)[m :sparkles: feat: Add line 2 in branch3[m
+[33mc39da71[m[33m ([m[1;32mbranch2[m[33m)[m :sparkles: feat: Add line 2 in branch2[m
+[33m1102e9d[m[33m ([m[1;32mbranch1[m[33m)[m :sparkles: feat: Add line 2 in branch1[m
+[33m6728f4b[m :sparkles: feat: Add line 1 to text file[m
+[33mb0f2a5e[m Solve conflicts between features A and B[m
+[33ma5d100c[m[33m ([m[1;32mfeature-b[m[33m)[m :sparkles: feat: Feature B[m
+[33m4038f87[m[33m ([m[1;32mfeature-a[m[33m)[m :sparkles: feat: Feature A[m
+[33m2e4db91[m :sparkles: feat: Update app file to V3 main[m
+[33m0284b4c[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m :sparkles: feat: Create V2 main app file[m
+[33m02257ca[m :sparkles: feat: Create labs directory[m
+[33m9620a15[m :sparkles: feat: Reset text file[m
+[33m11988da[m :sparkles: feat: Add a new line to text file[m
+[33m68809ad[m :sparkles: feat: Create text file[m
+[33m3efcbc2[m :sparkles: feat: README V4[m
+[33m2bff1c2[m :sparkles: feat: README V3[m
+[33m5ad14d6[m :sparkles: feat: README V2[m
+[33m6093b08[m :sparkles: feat: README V1[m
+[33mb2864e8[m :bug: fix: Fix reverted V2[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# q[Kexit
+[?2004lexit
+
+Script done on 2025-08-01 21:43:11-03:00 [COMMAND_EXIT_CODE="0"]

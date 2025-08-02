@@ -1,0 +1,54 @@
+Script started on 2025-08-01 21:19:01-03:00 [TERM="tmux-256color" TTY="/dev/pts/6" COLUMNS="144" LINES="47"]
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git branch test
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# gt [K[Kit branch prod
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "V2 main" >> app.txt
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add app.txt 
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# it[K[Kgit commit -am[Km ":sparkles: feat: Createa [K[K V2 main app file"
+[?2004l[main 0284b4c] :sparkles: feat: Create V2 main app file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.txt
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout test
+[?2004lSwitched to branch 'test'
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git merge main
+[?2004lUpdating 02257ca..0284b4c
+Fast-forward
+ app.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.txt
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout prod
+[?2004lSwitched to branch 'prod'
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git meg[Krge m[Ktest
+[?2004lUpdating 02257ca..0284b4c
+Fast-forward
+ app.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.txt
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout main
+[?2004lSwitched to branch 'main'
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "V3 main" >> app.txt 
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add app.txt 
+[?2004l[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -am ":sparkles: feat: Update fi[K[Kapp file to V# ma[K[K[K[K3 main"
+[?2004l[main 2e4db91] :sparkles: feat: Update app file to V3 main
+ 1 file changed, 1 insertion(+)
+[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git branch
+[?2004l[?1h=* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# git log --oneline -a[K-all
+[?2004l[?1h=[33m2e4db91[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m :sparkles: feat: Update app file to V3 main[m
+[33m0284b4c[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m :sparkles: feat: Create V2 main app file[m
+[33m02257ca[m :sparkles: feat: Create labs directory[m
+[33m9620a15[m :sparkles: feat: Reset text file[m
+[33m11988da[m :sparkles: feat: Add a new line to text file[m
+[33m68809ad[m :sparkles: feat: Create text file[m
+[33m3efcbc2[m :sparkles: feat: README V4[m
+[33m2bff1c2[m :sparkles: feat: README V3[m
+[33m5ad14d6[m :sparkles: feat: README V2[m
+[33m6093b08[m :sparkles: feat: README V1[m
+[33mb2864e8[m :bug: fix: Fix reverted V2[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004hroot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-01 21:20:57-03:00 [COMMAND_EXIT_CODE="0"]
