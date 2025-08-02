@@ -1,0 +1,13 @@
+Script started on 2025-08-02 10:53:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="53"]
+[?2004h]0;root@silver: ~/www/study/unifor/projectsroot@silver:~/www/study/unifor/projects# cd unifor-git-workshop/
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git remote ad [Kd origin [7mgit@github.com:victorkauan/unifor-git-workshop.git[27mgit@github.com:victorkauan/unifor-git-workshop.git
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git push ori[K[K-[K[K-u origin main
+[?2004lbranch 'main' set up to track 'origin/main'.
+Everything up-to-date
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git remove -v[K[K[K[K[Kte -v
+[?2004lorigin	git@github.com:victorkauan/unifor-git-workshop.git (fetch)
+origin	git@github.com:victorkauan/unifor-git-workshop.git (push)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-02 10:54:13-03:00 [COMMAND_EXIT_CODE="0"]
