@@ -1,0 +1,35 @@
+Script started on 2025-08-02 10:22:16-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="53"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag hotfix[27mgit tag hotfix
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git tag
+[?2004l[?1h=hotfix[m
+v1.0[m
+v1.1[m
+v1.2[m
+v2.0[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag -d hotfix[27mgit tag -d hotfix
+[?2004lDeleted tag 'hotfix' (was 16870cc)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git tag -a hotfix -m "Annoted [K[K[Kated[K[K[Kde[K[K[Ked [K[K[Kated[K[K[Kded[K[K[K[K[K[K[K[K[Knoted[K[K[K[K[KNoted hotfix"
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git show hotfix
+[?2004l[?1h=[33mtag hotfix[m[m
+Tagger: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Sat Aug 2 10:23:12 2025 -0300[m
+[m
+Noted hotfix[m
+[m
+[33mcommit 16870ccbde7e713cb50f370515b8560a5c300683[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv2.0[m[33m, [m[1;33mtag: [m[1;33mhotfix[m[33m)[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Sat Aug 2 10:20:53 2025 -0300[m
+[m
+    :sparkles: feat: Create version note file[m
+[m
+[1mdiff --git a/version.txt b/version.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..376ab87[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/version.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mVersion with note[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-02 10:23:26-03:00 [COMMAND_EXIT_CODE="0"]

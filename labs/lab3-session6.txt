@@ -1,0 +1,37 @@
+Script started on 2025-08-02 10:20:18-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="53"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Version with note" >> version.txt
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add version.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -m ": [Ksparkles: feat: V[KCreate version note [K[K[K[K[Kfile"nfile"ofile"tfile"efile" file"
+[?2004l[main 16870cc] :sparkles: feat: Create version note file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 version.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git tag -a v2.0 -m "Version 2.0 with improvements"
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit show v2.0[27mgit show v2.0
+[?2004l[?1h=[33mtag v2.0[m[m
+Tagger: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Sat Aug 2 10:21:39 2025 -0300[m
+[m
+Version 2.0 with improvements[m
+[m
+[33mcommit 16870ccbde7e713cb50f370515b8560a5c300683[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv2.0[m[33m)[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Sat Aug 2 10:20:53 2025 -0300[m
+[m
+    :sparkles: feat: Create version note file[m
+[m
+[1mdiff --git a/version.txt b/version.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..376ab87[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/version.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mVersion with note[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag -n[27mgit tag -n
+[?2004l[?1h=v1.0            :sparkles: feat: Add line 1 to log file[m
+v1.1            :sparkles: feat: Add line 2 to log file[m
+v1.2            :sparkles: feat: Add line 3 to log file[m
+v2.0            Version 2.0 with improvements[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-02 10:22:02-03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,94 @@
+Script started on 2025-08-02 10:05:16-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="53"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# eco[Kho "Line 1" > log.txt
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add log.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -m :[K";sp[K[K[K:sparkles: feat; [K[K: Add line 1 to log file"
+[?2004l[feature-123 6eb1038] :sparkles: feat: Add line 1 to log file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 log.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -m ":sparkles: feat: Add line 1 to log file"add log.txt [Kecho "Line 1" > log.txt[C[1P[1@2[C[C[C[C[C[C[C> log.txt
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Line 2" >> log.txtgit commit -m ":sparkles: feat: Add line 1 to log file"[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2
+[?2004l[feature-123 6b30f3b] :sparkles: feat: Add line 2 to log file
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git commit -am ":sparkles: feat: Add line 2 to log file"[32Pecho "Line 2" >> log.txt[C[1P[1@3
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Line 3" >> log.txtgit commit -am ":sparkles: feat: Add line 2 to log file"[1P[1@3
+[?2004l[feature-123 691b538] :sparkles: feat: Add line 3 to log file
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33m691b538[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-123[m[33m)[m :sparkles: feat: Add line 3 to log file[m
+[33m6b30f3b[m :sparkles: feat: Add line 2 to log file[m
+[33m6eb1038[m :sparkles: feat: Add line 1 to log file[m
+[33mf984948[m[33m ([m[1;31morigin/feature-123[m[33m, [m[1;31morigin/HEAD[m[33m)[m :sparkles: feat: Create lab 2 session files[m
+[33m4f74d47[m :sparkles: feat: Change in branch A[m
+[33m6e269d1[m[33m ([m[1;32mfeature-456[m[33m)[m :sparkles: feat: Change in branch B[m
+[33m619d55b[m[33m ([m[1;32mmain[m[33m)[m :sparkles: feat: Add base line[m
+[33mb782dcb[m[33m ([m[1;32mfeature[m[33m)[m :sparkles: feat: Add main line[m
+[33m75fa5a4[m :see_no_evil: chore: Create .gitignore file[m
+[33m7c935e9[m Solve conflicts[m
+[33m7c8c45e[m Solve conflicts[m
+[33ma5fd5de[m[33m ([m[1;32mbranch3[m[33m)[m :sparkles: feat: Add line 2 in branch3[m
+[33mc39da71[m[33m ([m[1;32mbranch2[m[33m)[m :sparkles: feat: Add line 2 in branch2[m
+[33m1102e9d[m[33m ([m[1;32mbranch1[m[33m)[m :sparkles: feat: Add line 2 in branch1[m
+[33m6728f4b[m :sparkles: feat: Add line 1 to text file[m
+[33mb0f2a5e[m Solve conflicts between features A and B[m
+[33ma5d100c[m[33m ([m[1;32mfeature-b[m[33m)[m :sparkles: feat: Feature B[m
+[33m4038f87[m[33m ([m[1;32mfeature-a[m[33m)[m :sparkles: feat: Feature A[m
+[33m2e4db91[m :sparkles: feat: Update app file to V3 main[m
+[33m0284b4c[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m :sparkles: feat: Create V2 main app file[m
+[33m02257ca[m :sparkles: feat: Create labs directory[m
+[33m9620a15[m :sparkles: feat: Reset text file[m
+[33m11988da[m :sparkles: feat: Add a new line to text file[m
+[33m68809ad[m :sparkles: feat: Create text file[m
+[33m3efcbc2[m :sparkles: feat: README V4[m
+[33m2bff1c2[m :sparkles: feat: README V3[m
+[33m5ad14d6[m :sparkles: feat: README V2[m
+[33m6093b08[m :sparkles: feat: README V1[m
+[33mb2864e8[m :bug: fix: Fix reverted V2[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag v1.0 HEAD~2[27mgit tag v1.0 HEAD~2
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag v1.1 HEAD~1[27mgit tag v1.1 HEAD~1
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag v1.2 HEAD[27mgit tag v1.2 HEAD
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag[27mgit tag
+[?2004l[?1h=v1.0[m
+v1.1[m
+v1.2[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit show v1.1[27mgit show v1.1
+[?2004l[?1h=[33mcommit 6b30f3bc9f88f34b443641f47b51a77f57f208da[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Sat Aug 2 10:05:57 2025 -0300[m
+[m
+    :sparkles: feat: Add line 2 to log file[m
+[m
+[1mdiff --git a/log.txt b/log.txt[m[m
+[1mindex 3be9c81..c82de6a 100644[m[m
+[1m--- a/log.txt[m[m
+[1m+++ b/log.txt[m[m
+[36m@@ -1 +1,2 @@[m[m
+ Line 1[m[m
+[32m+[m[32mLine 2[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout v1.0[27mgit checkout v1.0
+[?2004lNote: switching to 'v1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 6eb1038 :sparkles: feat: Add line 1 to log file
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout main[27mgit checkout main
+[?2004lPrevious HEAD position was 6eb1038 :sparkles: feat: Add line 1 to log file
+Switched to branch 'main'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-02 10:06:56-03:00 [COMMAND_EXIT_CODE="0"]

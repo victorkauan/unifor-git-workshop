@@ -1,0 +1,39 @@
+Script started on 2025-08-02 10:30:00-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="53"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git tag
+[?2004l[?1h=hotfix[m
+release-1.0[m
+v1.0[m
+v1.1[m
+v1.2[m
+v2.0[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout v1.1[27mgit checkout v1.1
+[?2004lNote: switching to 'v1.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 6b30f3b :sparkles: feat: Add line 2 to log file
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit switch -c branch-v1.1[27mgit switch -c branch-v1.1
+[?2004lSwitched to a new branch 'branch-v1.1'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echp [K[Ko "Patch for V1/1[K[K.1" >> changelog.txt
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add changelog.txt && git commit -m ":sparkle:[Ks: feat: Cerate [K[K[K[K[K[K[KCreate patch for version 1.1"
+[?2004lgrep: *.py: No such file or directory
+[branch-v1.1 aca63a6] :sparkles: feat: Create patch for version 1.1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 changelog.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-02 10:30:57-03:00 [COMMAND_EXIT_CODE="0"]

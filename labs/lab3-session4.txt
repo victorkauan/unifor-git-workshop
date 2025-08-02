@@ -1,0 +1,56 @@
+Script started on 2025-08-02 10:18:06-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="53"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git branch
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git log --oneline
+[?2004l[?1h=[33me4f0f3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m :sparkles: feat: Implement app file[m
+[33m619d55b[m :sparkles: feat: Add base line[m
+[33mb782dcb[m[33m ([m[1;32mfeature[m[33m)[m :sparkles: feat: Add main line[m
+[33m75fa5a4[m :see_no_evil: chore: Create .gitignore file[m
+[33m7c935e9[m Solve conflicts[m
+[33m7c8c45e[m Solve conflicts[m
+[33ma5fd5de[m[33m ([m[1;32mbranch3[m[33m)[m :sparkles: feat: Add line 2 in branch3[m
+[33mc39da71[m[33m ([m[1;32mbranch2[m[33m)[m :sparkles: feat: Add line 2 in branch2[m
+[33m1102e9d[m[33m ([m[1;32mbranch1[m[33m)[m :sparkles: feat: Add line 2 in branch1[m
+[33m6728f4b[m :sparkles: feat: Add line 1 to text file[m
+[33mb0f2a5e[m Solve conflicts between features A and B[m
+[33ma5d100c[m[33m ([m[1;32mfeature-b[m[33m)[m :sparkles: feat: Feature B[m
+[33m4038f87[m[33m ([m[1;32mfeature-a[m[33m)[m :sparkles: feat: Feature A[m
+[33m2e4db91[m :sparkles: feat: Update app file to V3 main[m
+[33m0284b4c[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m :sparkles: feat: Create V2 main app file[m
+[33m02257ca[m :sparkles: feat: Create labs directory[m
+[33m9620a15[m :sparkles: feat: Reset text file[m
+[33m11988da[m :sparkles: feat: Add a new line to text file[m
+[33m68809ad[m :sparkles: feat: Create text file[m
+[33m3efcbc2[m :sparkles: feat: README V4[m
+[33m2bff1c2[m :sparkles: feat: README V3[m
+[33m5ad14d6[m :sparkles: feat: README V2[m
+[33m6093b08[m :sparkles: feat: README V1[m
+[33mb2864e8[m :bug: fix: Fix reverted V2[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout -b test_hard[27mgit checkout -b test_hard
+[?2004lSwitched to a new branch 'test_hard'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit reset --hard HEAD~1[27mgit reset --hard HEAD~1
+[?2004lHEAD is now at 619d55b :sparkles: feat: Add base line
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git status
+[?2004lOn branch test_hard
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab3-session4.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-02 10:18:35-03:00 [COMMAND_EXIT_CODE="0"]

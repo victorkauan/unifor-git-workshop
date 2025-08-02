@@ -1,0 +1,98 @@
+Script started on 2025-08-02 10:19:16-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="53"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit branch[27mgit branch
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git log --onl[Keline
+[?2004l[?1h=[33me4f0f3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m :sparkles: feat: Implement app file[m
+[33m619d55b[m[33m ([m[1;32mtest_hard[m[33m)[m :sparkles: feat: Add base line[m
+[33mb782dcb[m[33m ([m[1;32mfeature[m[33m)[m :sparkles: feat: Add main line[m
+[33m75fa5a4[m :see_no_evil: chore: Create .gitignore file[m
+[33m7c935e9[m Solve conflicts[m
+[33m7c8c45e[m Solve conflicts[m
+[33ma5fd5de[m[33m ([m[1;32mbranch3[m[33m)[m :sparkles: feat: Add line 2 in branch3[m
+[33mc39da71[m[33m ([m[1;32mbranch2[m[33m)[m :sparkles: feat: Add line 2 in branch2[m
+[33m1102e9d[m[33m ([m[1;32mbranch1[m[33m)[m :sparkles: feat: Add line 2 in branch1[m
+[33m6728f4b[m :sparkles: feat: Add line 1 to text file[m
+[33mb0f2a5e[m Solve conflicts between features A and B[m
+[33ma5d100c[m[33m ([m[1;32mfeature-b[m[33m)[m :sparkles: feat: Feature B[m
+[33m4038f87[m[33m ([m[1;32mfeature-a[m[33m)[m :sparkles: feat: Feature A[m
+[33m2e4db91[m :sparkles: feat: Update app file to V3 main[m
+[33m0284b4c[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m :sparkles: feat: Create V2 main app file[m
+[33m02257ca[m :sparkles: feat: Create labs directory[m
+[33m9620a15[m :sparkles: feat: Reset text file[m
+[33m11988da[m :sparkles: feat: Add a new line to text file[m
+[33m68809ad[m :sparkles: feat: Create text file[m
+[33m3efcbc2[m :sparkles: feat: README V4[m
+[33m2bff1c2[m :sparkles: feat: README V3[m
+[33m5ad14d6[m :sparkles: feat: README V2[m
+[33m6093b08[m :sparkles: feat: README V1[m
+[33mb2864e8[m :bug: fix: Fix reverted V2[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout -b test_revert[27mgit checkout -b test_revert
+[?2004lSwitched to a new branch 'test_revert'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit revert HEAD~1[27mgit revert HEAD~1
+[?2004lhint: Waiting for your editor to close the file... [?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;53r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[38;5;231m[H[2J[?25l[53;1H"~/www/study/unifor/projects/unifor-git-workshop/.git/COMMIT_EDITMSG" 14L, 358B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[38;5;145m1   [m[38;5;231m[38;5;111m[48;5;235mRevert ":sparkles: feat: Add base line"[m[38;5;231m[48;5;235m                                                                                                                 [m[38;5;231m[2;1H[38;5;145m  1 [m[38;5;231m[2;5H[K[3;1H[38;5;145m  2 [m[38;5;231mThis reverts commit [38;5;203m619d55becd3241b04dfa4db84b05c2b75fb10b6e[m[38;5;231m.[3;66H[K[4;1H[38;5;145m  3 
+  4 [m[38;5;231m[38;5;145m# Please enter the commit message for your changes. Lines starting[m[38;5;231m
+[38;5;145m  5 [m[38;5;231m[38;5;145m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;231m
+[38;5;145m  6 [m[38;5;231m[38;5;145m#[m[38;5;231m
+[38;5;145m  7 [m[38;5;231m[38;5;145m# On branch [m[38;5;231m[38;5;139mtest_revert[m[38;5;231m
+[38;5;145m  8 [m[38;5;231m[38;5;145m# [m[38;5;231m[38;5;176mChanges to be committed:[m[38;5;231m
+[38;5;145m  9 [m[38;5;231m[38;5;145m#       [m[38;5;231m[32mmodified[m[38;5;231m[38;5;145m:   [m[38;5;231m[32mfile.txt[m[38;5;231m
+[38;5;145m 10 [m[38;5;231m[38;5;145m#[m[38;5;231m
+[38;5;145m 11 [m[38;5;231m[38;5;145m# [m[38;5;231m[38;5;176mUntracked files:[m[38;5;231m
+[38;5;145m 12 [m[38;5;231m[38;5;145m#       [m[38;5;231m[38;5;209mlab3-session5.txt[m[38;5;231m
+[38;5;145m 13 [m[38;5;231m[38;5;145m#
+~                                                                                                                                                           [16;1H~                                                                                                                                                           [17;1H~                                                                                                                                                           [18;1H~                                                                                                                                                           [19;1H~                                                                                                                                                           [20;1H~                                                                                                                                                           [21;1H~                                                                                                                                                           [22;1H~                                                                                                                                                           [23;1H~                                                                                                                                                           [24;1H~                                                                                                                                                           [25;1H~                                                                                                                                                           [26;1H~                                                                                                                                                           [27;1H~                                                                                                                                                           [28;1H~                                                                                                                                                           [29;1H~                                                                                                                                                           [30;1H~                                                                                                                                                           [31;1H~                                                                                                                                                           [32;1H~                                                                                                                                                           [33;1H~                                                                                                                                                           [34;1H~                                                                                                                                                           [35;1H~                                                                                                                                                           [36;1H~                                                                                                                                                           [37;1H~                                                                                                                                                           [38;1H~                                                                                                                                                           [39;1H~                                                                                                                                                           [40;1H~                                                                                                                                                           [41;1H~                                                                                                                                                           [42;1H~                                                                                                                                                           [43;1H~                                                                                                                                                           [44;1H~                                                                                                                                                           [45;1H~                                                                                                                                                           [46;1H~                                                                                                                                                           [47;1H~                                                                                                                                                           [48;1H~                                                                                                                                                           [49;1H~                                                                                                                                                           [50;1H~                                                                                                                                                           [51;1H~                                                                                                                                                           [m[38;5;231m[52;1H[1m[38;5;232m[48;5;117m NORMAL [m[38;5;231m[38;5;231m[48;5;239m ᚠ test_revert [m[38;5;231m[38;5;231m[48;5;239m .git/COMMIT_EDITMSG                                                                         gitcommit [m[38;5;231m[38;5;231m[48;5;239m utf-8[unix] [m[38;5;231m[38;5;232m[48;5;117m 7%[m[38;5;231m[1m[38;5;232m[48;5;117m ㏑: 1/14≡[52;153H℅[52;154H:1[m[38;5;231m[38;5;232m[48;5;117m ]2;~/www/study/unifor/projects/unifor-git-workshop/.git/COMMIT_EDITMSG[1;5H[?25h[?12$p[?25l[?25h[?25l[?25h[?25l[m[38;5;231m[53;1H[K[53;1H:[52;2H[1m[38;5;232m[48;5;117mCOMMAND [m[38;5;231m[38;5;231m[48;5;239m ᚠ test_revert [m[38;5;231m[38;5;231m[48;5;239m .git/COMMIT_EDITMSG
+[m[38;5;231m:[?25hq[?25l[?2004l[>4;m]2;[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[53;1H[K[53;1H[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[K[test_revert 7530935] Revert ":sparkles: feat: Add base line"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit status[27mgit status
+[?2004lOn branch test_revert
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab3-session5.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git log --oneline
+[?2004l[?1h=[33m7530935[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtest_revert[m[33m)[m Revert ":sparkles: feat: Add base line"[m
+[33me4f0f3f[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m :sparkles: feat: Implement app file[m
+[33m619d55b[m[33m ([m[1;32mtest_hard[m[33m)[m :sparkles: feat: Add base line[m
+[33mb782dcb[m[33m ([m[1;32mfeature[m[33m)[m :sparkles: feat: Add main line[m
+[33m75fa5a4[m :see_no_evil: chore: Create .gitignore file[m
+[33m7c935e9[m Solve conflicts[m
+[33m7c8c45e[m Solve conflicts[m
+[33ma5fd5de[m[33m ([m[1;32mbranch3[m[33m)[m :sparkles: feat: Add line 2 in branch3[m
+[33mc39da71[m[33m ([m[1;32mbranch2[m[33m)[m :sparkles: feat: Add line 2 in branch2[m
+[33m1102e9d[m[33m ([m[1;32mbranch1[m[33m)[m :sparkles: feat: Add line 2 in branch1[m
+[33m6728f4b[m :sparkles: feat: Add line 1 to text file[m
+[33mb0f2a5e[m Solve conflicts between features A and B[m
+[33ma5d100c[m[33m ([m[1;32mfeature-b[m[33m)[m :sparkles: feat: Feature B[m
+[33m4038f87[m[33m ([m[1;32mfeature-a[m[33m)[m :sparkles: feat: Feature A[m
+[33m2e4db91[m :sparkles: feat: Update app file to V3 main[m
+[33m0284b4c[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m :sparkles: feat: Create V2 main app file[m
+[33m02257ca[m :sparkles: feat: Create labs directory[m
+[33m9620a15[m :sparkles: feat: Reset text file[m
+[33m11988da[m :sparkles: feat: Add a new line to text file[m
+[33m68809ad[m :sparkles: feat: Create text file[m
+[33m3efcbc2[m :sparkles: feat: README V4[m
+[33m2bff1c2[m :sparkles: feat: README V3[m
+[33m5ad14d6[m :sparkles: feat: README V2[m
+[33m6093b08[m :sparkles: feat: README V1[m
+[33mb2864e8[m :bug: fix: Fix reverted V2[m
+[33m004cdbd[m :sparkles: feat: V2[m
+[33m40dbab4[m :sparkles: feat: V1[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-02 10:19:49-03:00 [COMMAND_EXIT_CODE="0"]
