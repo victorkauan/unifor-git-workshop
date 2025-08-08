@@ -4,3 +4,4 @@ Validating user CPF
 Validate user address
 Add terms of use button
 Add check password field
+Add loading to login button
