@@ -1,1 +1,1 @@
-Version with note
+Version 1.4.0
