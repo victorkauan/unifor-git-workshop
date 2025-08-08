@@ -3,3 +3,4 @@ Correction change
 Validating user CPF
 Validate user address
 Add user password validation
+Add username field
