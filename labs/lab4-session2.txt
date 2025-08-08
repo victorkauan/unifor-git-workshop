@@ -1,0 +1,123 @@
+Script started on 2025-08-07 21:28:46-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="48"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git branch
+[?2004l[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  develop[m[m
+  feat/user-registration[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  release/1.0.0[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout develop[27mgit checkout develop
+[?2004lSwitched to branch 'develop'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit pull origin develop[27mgit pull origin develop
+[?2004lFrom github.com:victorkauan/unifor-git-workshop
+ * branch            develop    -> FETCH_HEAD
+Already up to date.
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout -b release/1.4.0[27mgit checkout -b release/1.4.0
+[?2004lSwitched to a new branch 'release/1.4.0'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mecho "versão 1.4.0" > versao.txt[27mecho "versão 1.4.0" > versao.txt[C[1P[1@0[1P[1P[1P[1P[1P[1P[1@V[1@e[1@r[1@s[1@i[1@o[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txti.txto.txtn.txt
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add version.txt && git commit -m ":sparkles: feat: Final adjusts"
+[?2004l[release/1.4.0 70015fb] :sparkles: feat: Final adjusts
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin release/1.4.0[27mgit push origin release/1.4.0
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 287 bytes | 287.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'release/1.4.0' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/release/1.4.0[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      release/1.4.0 -> release/1.4.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout -b bugfix/1.4.0[27mgit checkout -b bugfix/1.4.0
+[?2004lSwitched to a new branch 'bugfix/1.4.0'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Validaing [K[K[K[Kting usernam"[K[K[K[K name" >> registration.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add registration.txt && git commit -m ":bug: fix: Fix [K[K[K[KAdd user name vlaidati[K[K[K[K[K[K[Kalidation"
+[?2004l[bugfix/1.4.0 c049324] :bug: fix: Add user name validation
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git push origin [7mbugfix/1.4.0[27mbugfix/1.4.0
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 308 bytes | 308.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'bugfix/1.4.0' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/bugfix/1.4.0[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      bugfix/1.4.0 -> bugfix/1.4.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout [7mrelease/1.4.0[27mrelease/1.4.0
+[?2004lSwitched to branch 'release/1.4.0'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git pull origin [7mrelease/1.4.0[27mrelease/1.4.0
+[?2004lremote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 888 bytes | 888.00 KiB/s, done.
+From github.com:victorkauan/unifor-git-workshop
+ * branch            release/1.4.0 -> FETCH_HEAD
+   70015fb..15c4973  release/1.4.0 -> origin/release/1.4.0
+Updating 70015fb..15c4973
+Fast-forward
+ registration.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git tag -a "[Kv1.4.0 -m "Version 1.4.0"
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin v1.4.0[27mgit push origin v1.4.0
+[?2004lEnumerating objects: 1, done.
+Counting objects: 100% (1/1)Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1)Writing objects: 100% (1/1), 165 bytes | 165.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new tag]         v1.4.0 -> v1.4.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkou maint main
+[?2004lSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git pull origin main
+[?2004lremote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)[Kremote: Counting objects:  25% (2/8)[Kremote: Counting objects:  37% (3/8)[Kremote: Counting objects:  50% (4/8)[Kremote: Counting objects:  62% (5/8)[Kremote: Counting objects:  75% (6/8)[Kremote: Counting objects:  87% (7/8)[Kremote: Counting objects: 100% (8/8)[Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  25% (1/4)Unpacking objects:  50% (2/4)Unpacking objects:  75% (3/4)Unpacking objects: 100% (4/4)Unpacking objects: 100% (4/4), 1.81 KiB | 618.00 KiB/s, done.
+From github.com:victorkauan/unifor-git-workshop
+ * branch            main       -> FETCH_HEAD
+   d4334c7..2a07d01  main       -> origin/main
+Updating d4334c7..2a07d01
+Fast-forward
+ registration.txt | 1 [32m+[m
+ version.txt      | 1 [32m+[m
+ 2 files changed, 2 insertions(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout develop
+[?2004lSwitched to branch 'develop'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git pull origin develop
+[?2004lremote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 894 bytes | 894.00 KiB/s, done.
+From github.com:victorkauan/unifor-git-workshop
+ * branch            develop    -> FETCH_HEAD
+   ea0313d..f174988  develop    -> origin/develop
+Updating ea0313d..f174988
+Fast-forward
+ registration.txt | 1 [32m+[m
+ version.txt      | 3 [32m++[m[31m-[m
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [?2004l
+exit
+
+Script done on 2025-08-07 21:35:53-03:00 [COMMAND_EXIT_CODE="0"]

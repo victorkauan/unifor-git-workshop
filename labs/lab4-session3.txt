@@ -1,0 +1,166 @@
+Script started on 2025-08-07 21:46:39-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="48"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit branch[27mgit branch
+[?2004l[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  bugfix/1.4.0[m[m
+  develop[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  release/1.0.0[m[m
+  release/1.4.0[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout -b feature/[K[K[K[K/user-registration develop
+[?2004lSwitched to a new branch 'feat/user-registration'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git [K[K[K[Kecho "Form" > registration.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add registration.txt && git commit -m ":[K[K""[K:sparkles;[K: feat: Initial registration"
+[?2004l[feat/user-registration ab4fc9e] :sparkles: feat: Initial registration
+ 1 file changed, 1 deletion(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git push origin feat/user-registration
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'feat/user-registration' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/feat/user-registration[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      feat/user-registration -> feat/user-registration
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git push origin feat/user-registrationadd registration.txt && git commit -m ":sparkles: feat: Initial registration"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[50Pecho "Form" > registration.txt git checkout -b feat/user-registration develop[1P develop[1P develop[1P develop[1P develop[1P develop[1P develop[1P develop[1P develop[1P develop[1P develop[1P develop[1P developc developo developr developr develope developc developt developi developo developn develop
+[?2004lSwitched to a new branch 'feat/user-correction'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout -b feat/user-correction develop[6Ppush origin feat/user-registrationadd registration.txt && git commit -m ":sparkles: feat: Initial registration"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[50Pecho "Form" > registration.txt [C[C[C[C[1P[1P[1P[1P[1@C[1@o[1@r[1@r[1@e[1@c[1@t[1@i[1@o[1@n[1@ [1@c[1@h[1@a[1@n[1@g[1@e[1@s[1P
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Correction change" > registration.txt git checkout -b feat/user-correction develop[6Ppush origin feat/user-registrationadd registration.txt && git commit -m ":sparkles: feat: Initial registration"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"b"u"g":" "F"i"x":" "[1P"[1P"[1P"[1P"[1P"f"i"x":" "U"s"e"r" "c"o"r"r"e"c"t"i"o"n"
+[?2004l[feat/user-correction b8e78e7] :bug: fix: User correction
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git push origin feat/user-c[Kcorrection
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'feat/user-correction' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/feat/user-correction[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      feat/user-correction -> feat/user-correction
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout develop
+[?2004lSwitched to branch 'develop'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git pull origin develop
+[?2004lremote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 897 bytes | 897.00 KiB/s, done.
+From github.com:victorkauan/unifor-git-workshop
+ * branch            develop    -> FETCH_HEAD
+   f174988..e1e9c2c  develop    -> origin/develop
+Updating f174988..e1e9c2c
+Fast-forward
+ registration.txt | 1 [31m-[m
+ 1 file changed, 1 deletion(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git cehcko[K[K[K[K[Kheckout -b fix/deveop-c[K[K[K[Klop-correction develop
+[?2004lSwitched to a new branch 'fix/develop-correction'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit merge main[27mgit merge main
+[?2004lhint: Waiting for your editor to close the file... [?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[38;5;253m[48;5;236m[H[2J[?25l[48;1H"~/www/study/unifor/projects/unifor-git-workshop/.git/MERGE_MSG" 6L, 274B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[38;5;228m1   [m[38;5;253m[48;5;236m[38;5;212m[48;5;238mMerge branch 'main' into fix/develop-correction[m[38;5;253m[48;5;236m[48;5;238m                                                                                                         [m[38;5;253m[48;5;236m[2;1H[38;5;61m  1 # Please enter a commit message to explain why this merge is necessary,[m[38;5;253m[48;5;236m[2;76H[K[3;1H[38;5;61m  2 # especially if it merges an updated upstream into a topic branch.[m[38;5;253m[48;5;236m[3;71H[K[4;1H[38;5;61m  3 #
+  4 # Lines starting with '#' will be ignored, and an empty message aborts
+  5 # the commit.[m[38;5;253m[48;5;236m
+[38;5;238m~                                                                                                                                                           [8;1H~                                                                                                                                                           [9;1H~                                                                                                                                                           [10;1H~                                                                                                                                                           [11;1H~                                                                                                                                                           [12;1H~                                                                                                                                                           [13;1H~                                                                                                                                                           [14;1H~                                                                                                                                                           [15;1H~                                                                                                                                                           [16;1H~                                                                                                                                                           [17;1H~                                                                                                                                                           [18;1H~                                                                                                                                                           [19;1H~                                                                                                                                                           [20;1H~                                                                                                                                                           [21;1H~                                                                                                                                                           [22;1H~                                                                                                                                                           [23;1H~                                                                                                                                                           [24;1H~                                                                                                                                                           [25;1H~                                                                                                                                                           [26;1H~                                                                                                                                                           [27;1H~                                                                                                                                                           [28;1H~                                                                                                                                                           [29;1H~                                                                                                                                                           [30;1H~                                                                                                                                                           [31;1H~                                                                                                                                                           [32;1H~                                                                                                                                                           [33;1H~                                                                                                                                                           [34;1H~                                                                                                                                                           [35;1H~                                                                                                                                                           [36;1H~                                                                                                                                                           [37;1H~                                                                                                                                                           [38;1H~                                                                                                                                                           [39;1H~                                                                                                                                                           [40;1H~                                                                                                                                                           [41;1H~                                                                                                                                                           [42;1H~                                                                                                                                                           [43;1H~                                                                                                                                                           [44;1H~                                                                                                                                                           [45;1H~                                                                                                                                                           [46;1H~                                                                                                                                                           [m[38;5;253m[48;5;236m[47;1H[38;5;236m[48;5;141m [m[38;5;253m[48;5;236m[1m[38;5;236m[48;5;141mNORMAL[m[38;5;253m[48;5;236m[38;5;236m[48;5;141m [m[38;5;253m[48;5;236m[38;5;253m[48;5;61m ᚠ fix/develop-correction [m[38;5;253m[48;5;236m[38;5;253m[48;5;239m .git/MERGE_MSG                                                                   gitcommit [m[38;5;253m[48;5;236m[38;5;253m[48;5;61m utf-8[unix] [m[38;5;253m[48;5;236m[38;5;236m[48;5;141m 16%[m[38;5;253m[48;5;236m[1m[38;5;236m[48;5;141m ㏑: 1/6≡[47;153H℅[47;154H:1[m[38;5;253m[48;5;236m[38;5;236m[48;5;141m ]2;~/www/study/unifor/projects/unifor-git-workshop/.git/MERGE_MSG[1;5H[?25h[?12$p[?25l[?25h[?25l[?25h[?25l[m[38;5;253m[48;5;236m[48;1H[K[48;1H:[47;2H[1m[38;5;236m[48;5;141mCOMMAND[m[38;5;253m[48;5;236m[38;5;236m[48;5;141m [m[38;5;253m[48;5;236m[38;5;253m[48;5;61m ᚠ fix/develop-correction [m[38;5;253m[48;5;236m[38;5;253m[48;5;239m .git/MERGE_MSG
+[m[38;5;253m[48;5;236m:[?25hq[?25l[?2004l[>4;m]2;[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[48;1H[K[48;1H[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[KMerge made by the 'ort' strategy.
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git status
+[?2004lOn branch fix/develop-correction
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab4-session3.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git push origin [7mfix/develop-correction[27mfix/develop-correction
+[?2004lEnumerating objects: 16, done.
+Counting objects:   6% (1/16)Counting objects:  12% (2/16)Counting objects:  18% (3/16)Counting objects:  25% (4/16)Counting objects:  31% (5/16)Counting objects:  37% (6/16)Counting objects:  43% (7/16)Counting objects:  50% (8/16)Counting objects:  56% (9/16)Counting objects:  62% (10/16)Counting objects:  68% (11/16)Counting objects:  75% (12/16)Counting objects:  81% (13/16)Counting objects:  87% (14/16)Counting objects:  93% (15/16)Counting objects: 100% (16/16)Counting objects: 100% (16/16), done.
+Delta compression using up to 12 threads
+Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
+Writing objects:  10% (1/10)Writing objects:  20% (2/10)Writing objects:  30% (3/10)Writing objects:  40% (4/10)Writing objects:  50% (5/10)Writing objects:  60% (6/10)Writing objects:  70% (7/10)Writing objects:  80% (8/10)Writing objects:  90% (9/10)Writing objects: 100% (10/10)Writing objects: 100% (10/10), 4.77 KiB | 2.38 MiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 2 local objects.[K
+remote: 
+remote: Create a pull request for 'fix/develop-correction' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/fix/develop-correction[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      fix/develop-correction -> fix/develop-correction
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout main[27mgit checkout main
+[?2004lSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit pull origin main[27mgit pull origin main
+[?2004lremote: Enumerating objects: 13, done.[K
+remote: Counting objects:   7% (1/13)[Kremote: Counting objects:  15% (2/13)[Kremote: Counting objects:  23% (3/13)[Kremote: Counting objects:  30% (4/13)[Kremote: Counting objects:  38% (5/13)[Kremote: Counting objects:  46% (6/13)[Kremote: Counting objects:  53% (7/13)[Kremote: Counting objects:  61% (8/13)[Kremote: Counting objects:  69% (9/13)[Kremote: Counting objects:  76% (10/13)[Kremote: Counting objects:  84% (11/13)[Kremote: Counting objects:  92% (12/13)[Kremote: Counting objects: 100% (13/13)[Kremote: Counting objects: 100% (13/13), done.[K
+remote: Compressing objects:  16% (1/6)[Kremote: Compressing objects:  33% (2/6)[Kremote: Compressing objects:  50% (3/6)[Kremote: Compressing objects:  66% (4/6)[Kremote: Compressing objects:  83% (5/6)[Kremote: Compressing objects: 100% (6/6)[Kremote: Compressing objects: 100% (6/6), done.[K
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  14% (1/7)Unpacking objects:  28% (2/7)Unpacking objects:  42% (3/7)Unpacking objects:  57% (4/7)Unpacking objects:  71% (5/7)Unpacking objects:  85% (6/7)Unpacking objects: 100% (7/7)Unpacking objects: 100% (7/7), 4.40 KiB | 346.00 KiB/s, done.
+From github.com:victorkauan/unifor-git-workshop
+ * branch            main       -> FETCH_HEAD
+   2a07d01..e81b792  main       -> origin/main
+Updating 2a07d01..e81b792
+Fast-forward
+ registration.txt | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout -b release/1.1.0[27mgit checkout -b release/1.1.0
+[?2004lSwitched to a new branch 'release/1.1.0'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# eco [K[Kho "Verrsion [K[K[K[K[K[Ksion 1.1.0" > e[Kversion.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add version.txt && git commit -m ":sparkles: feat: Final adjusts"
+[?2004l[release/1.1.0 bbd5fa6] :sparkles: feat: Final adjusts
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin release/1.1.0[27mgit push origin release/1.1.0
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'release/1.1.0' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/release/1.1.0[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      release/1.1.0 -> release/1.1.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag -a v1.1.0 -m "[27mgit tag -a v1.1.0 -m "Version 1.1.0"
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin v1.1.0[27mgit push origin v1.1.0
+[?2004lEnumerating objects: 1, done.
+Counting objects: 100% (1/1)Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1)Writing objects: 100% (1/1), 167 bytes | 167.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new tag]         v1.1.0 -> v1.1.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkot m[K[K[Kut main
+[?2004lSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git pull origin main
+[?2004lremote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 893 bytes | 893.00 KiB/s, done.
+From github.com:victorkauan/unifor-git-workshop
+ * branch            main       -> FETCH_HEAD
+   e81b792..40c779a  main       -> origin/main
+Updating e81b792..40c779a
+Fast-forward
+ version.txt | 3 [32m+[m[31m--[m
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-07 22:03:13-03:00 [COMMAND_EXIT_CODE="0"]

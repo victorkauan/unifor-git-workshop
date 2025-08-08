@@ -1,0 +1,107 @@
+Script started on 2025-08-08 19:00:50-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="96" LINES="31"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [K]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git branch
+[?2004l[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  bugfix/1.4.0[m[m
+  develop[m[m
+  feat/user-correction[m[m
+  feat/user-registration[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+  fix/develop-correction[m[m
+* [32mmain[m[m
+  prod[m[m
+  release/1.0.0[m[m
+  release/1.1.0[m[m
+  release/1.4.0[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout v1.1.0[27mgit checkout v1.1.0
+[?2004lNote: switching to 'v1.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at bbd5fa6 :sparkles: feat: Final adjusts
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit switch -c hotfix/1.1.0[27mgit switch -c hotfix/1.1.0
+[?2004lSwitched to a new branch 'hotfix/1.1.0'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# echo "Validating user CPF" >> registration.txt 
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add . && git commit -m ":bug: fo: [K[K[K[K[K[K[Kg: fox: [K[K[K[Kix: Add user CPf va[K[K[K[KF validation"[C[C[C[C[C[1P[1@re. && git commit -m ":bug: fix: Add user CPF validation" [A]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[1P[C[1@ [1@re && git commit -m ":bug: fix: Add user CPF validation" [A]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [C[C[C[C[C[C[C[C[C[Cgistration.txt && git commit -m ":bug: fix: Add user CPF validation"[A]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[hotfix/1.1.0 f7d6c33] :bug: fix: Add user CPF validation
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git push origin hotfix/1.1.0
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 328 bytes | 328.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'hotfix/1.1.0' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/hotfix/1.1.0[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      hotfix/1.1.0 -> hotfix/1.1.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout main[27mgit checkout main
+[?2004lSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit pull origin main[27mgit pull origin main
+[?2004lgit tag -a v1.2.0 -m "remote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 892 bytes | 892.00 KiB/s, done.
+From github.com:victorkauan/unifor-git-workshop
+ * branch            main       -> FETCH_HEAD
+   40c779a..abbb98b  main       -> origin/main
+Updating 40c779a..abbb98b
+Fast-forward
+ registration.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git tag -a v1.2.0 -m "Version 12.[K[K.2.0"
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git push origin v1.2.0
+[?2004lEnumerating objects: 1, done.
+Counting objects: 100% (1/1)Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1)Writing objects: 100% (1/1), 167 bytes | 167.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new tag]         v1.2.0 -> v1.2.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git checkout develop
+[?2004lSwitched to branch 'develop'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git pull origin develop
+[?2004lremote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 893 bytes | 893.00 KiB/s, done.
+From github.com:victorkauan/unifor-git-workshop
+ * branch            develop    -> FETCH_HEAD
+   4671353..869968e  develop    -> origin/develop
+Updating 4671353..869968e
+Fast-forward
+ registration.txt | 1 [32m+[m
+ version.txt      | 3 [32m+[m[31m--[m
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-08 19:04:32-03:00 [COMMAND_EXIT_CODE="0"]

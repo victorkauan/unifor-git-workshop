@@ -1,0 +1,168 @@
+Script started on 2025-08-08 19:29:23-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="48"]
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git branch
+[?2004l[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  bugfix/1.4.0[m[m
+  develop[m[m
+  feat/adjust-reviewed-button[m[m
+  feat/user-correction[m[m
+  feat/user-registration[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+  fix/develop-correction[m[m
+  hotfix/1.1.0[m[m
+* [32mmain[m[m
+  prod[m[m
+  release/1.0.0[m[m
+  release/1.1.0[m[m
+  release/1.4.0[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout -b devA-feature-x main[27mgit checkout -b devA-feature-x main
+[?2004lSwitched to a new branch 'devA-feature-x'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mecho "início da funcionalidade A" > featureA.txt[27mecho "início da funcionalidade A" > featureA.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@S[1@t[1@a[1@r[1@t[C[1@ [1@f[1@e[1@a[1@t[1@u[1@r[1@e
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git add featureA.txt && git commit -m ":sparkles: feat: Create feaa[Kture A"
+[?2004l[devA-feature-x 1f7fdb0] :sparkles: feat: Create feature A
+ 1 file changed, 1 insertion(+)
+ create mode 100644 featureA.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin devA-feature-x[27mgit push origin devA-feature-x
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'devA-feature-x' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/devA-feature-x[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      devA-feature-x -> devA-feature-x
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout main[27mgit checkout main
+[?2004lSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit merge devA-feature-x[27mgit merge devA-feature-x
+[?2004lUpdating 1d96934..1f7fdb0
+Fast-forward
+ featureA.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 featureA.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin main[27mgit push origin main
+[?2004lTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:victorkauan/unifor-git-workshop.git
+   1d96934..1f7fdb0  main -> main
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit tag -a v1.6.0 -m "release 1.6.0"[27mgit tag -a v1.6.0 -m "release 1.6.0"[1P[1@R
+[?2004l[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin v1.6.0[27mgit push origin v1.6.0
+[?2004lEnumerating objects: 1, done.
+Counting objects: 100% (1/1)Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1)Writing objects: 100% (1/1), 168 bytes | 168.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new tag]         v1.6.0 -> v1.6.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout -b release/1.6.0[27mgit checkout -b release/1.6.0
+[?2004lSwitched to a new branch 'release/1.6.0'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin release/1.6.0[27mgit push origin release/1.6.0
+[?2004lTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'release/1.6.0' on GitHub by visiting:[K
+remote:      https://github.com/victorkauan/unifor-git-workshop/pull/new/release/1.6.0[K
+remote: 
+To github.com:victorkauan/unifor-git-workshop.git
+ * [new branch]      release/1.6.0 -> release/1.6.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout main[27mgit checkout main
+[?2004lSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mecho "commit A" > a.txt && git add a.txt && git commit -m "feat: commit A"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "commit A" > a.txt && git add a.txt && git commit -m "feat: commit A"[1P[1@C[1@:[1@s[1@p[1@a[1@r[1@k[1@l[1@e[1@s[1@:[1@ [C[1P[1@C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[main e74eb92] :sparkles: feat: Commit A
+ 1 file changed, 1 insertion(+)
+ create mode 100644 a.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mecho "commit B" > b.txt && git add b.txt && git commit -m "feat: commit B"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "commit B" > b.txt && git add b.txt && git commit -m "feat: commit B"[C[C[C[C[C[C[1P[1@C[1@:[1@s[1@p[1@a[1@r[1@l[1@e[1@s[1@:[1P[1P[1P[1P[1@k[1@l[1@e[1@s[1@:[1@ [C[1P[1@C
+[?2004l[main 9f096cf] :sparkles: feat: Commit B
+ 1 file changed, 1 insertion(+)
+ create mode 100644 b.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin main[27mgit push origin main
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 521 bytes | 521.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To github.com:victorkauan/unifor-git-workshop.git
+   1f7fdb0..9f096cf  main -> main
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# git log
+[?2004l[?1h=[33mcommit 9f096cf8b6ae3ab3f37a497c3781a33e6aa17332[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Fri Aug 8 19:31:34 2025 -0300[m
+[m
+    :sparkles: feat: Commit B[m
+[m
+[33mcommit e74eb92623b1260e468ba32dc9c1606d2caa296b[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Fri Aug 8 19:31:20 2025 -0300[m
+[m
+    :sparkles: feat: Commit A[m
+[m
+[33mcommit 1f7fdb050a6330cfe8cc4790ea83a62e942c5ade[m[33m ([m[1;33mtag: [m[1;33mv1.6.0[m[33m, [m[1;31morigin/release/1.6.0[m[33m, [m[1;31morigin/devA-feature-x[m[33m, [m[1;32mrelease/1.6.0[m[33m, [m[1;32mdevA-feature-x[m[33m)[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Fri Aug 8 19:29:47 2025 -0300[m
+[m
+    :sparkles: feat: Create feature A[m
+[m
+[33mcommit 1d96934837ccccafdd1ea7691fb83bfc61788f88[m[33m ([m[1;33mtag: [m[1;33mv1.5.0[m[33m)[m[m
+Merge: abbb98b 56b4e7f[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Fri Aug 8 19:08:24 2025 -0300[m
+[m
+    Merge pull request #15 from victorkauan/feat/adjust-reviewed-button[m
+    [m
+    feat/adjust-reviewed-button[m
+[m
+[33mcommit 56b4e7fe244b6b3f5902e93ab8a94579ad5d0902[m[33m ([m[1;31morigin/feat/adjust-reviewed-button[m[33m, [m[1;32mfeat/adjust-reviewed-button[m[33m)[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Fri Aug 8 19:07:33 2025 -0300[m
+[m
+    Adjust login button[m
+[m
+[33mcommit abbb98b260c623f4a959e13196832937172161fe[m[33m ([m[1;33mtag: [m[1;33mv1.2.0[m[33m)[m[m
+Merge: 40c779a f7d6c33[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Fri Aug 8 19:03:17 2025 -0300[m
+[m
+    Merge pull request #13 from victorkauan/hotfix/1.1.0[m
+    [m
+    hotfix/1.1.0[m
+[m
+[33mcommit f7d6c339ee71d8df54ca2da0d736776f52ff6d9a[m[33m ([m[1;31morigin/hotfix/1.1.0[m[33m, [m[1;32mhotfix/1.1.0[m[33m)[m[m
+Author: Victor Kauan <victorkauan.dev@gmail.com>[m
+Date:   Fri Aug 8 19:02:21 2025 -0300[m
+[m
+    :bug: fix: Add user CPF validation[m
+:[K[K[?1l>[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit checkout release/1.0.0[27mgit checkout release/1.0.0
+[?2004lSwitched to branch 'release/1.0.0'
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit cherry-pick[27mgit cherry-pick [7m9f096cf8b6ae3ab3f37a497c3781a33e6aa17332[27m9f096cf8b6ae3ab3f37a497c3781a33e6aa17332
+[?2004l[release/1.0.0 f02866e] :sparkles: feat: Commit B
+ Date: Fri Aug 8 19:31:34 2025 -0300
+ 1 file changed, 1 insertion(+)
+ create mode 100644 b.txt
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# [7mgit push origin release/1.0.0[27mgit push origin release/1.0.0
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:victorkauan/unifor-git-workshop.git
+   44f8f6c..f02866e  release/1.0.0 -> release/1.0.0
+[?2004h]0;root@silver: ~/www/study/unifor/projects/unifor-git-workshoproot@silver:~/www/study/unifor/projects/unifor-git-workshop# exit
+[?2004lexit
+
+Script done on 2025-08-08 19:35:13-03:00 [COMMAND_EXIT_CODE="0"]
